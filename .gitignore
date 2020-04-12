@@ -227,3 +227,11 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/osx,java,eclipse,intellij,maven
 /.idea/
+/.idea/compiler.xml
+/.idea/libraries/
+/docureader.iml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/encodings.xml

@@ -1,3 +1,3 @@
 # docureader
 
-JAVA -version 14
+JAVA -version 11

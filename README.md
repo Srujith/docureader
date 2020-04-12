@@ -33,4 +33,4 @@ To monitor and manage your application
 |  URL |  Method | Remarks |
 |----------|--------------|--------------|
 |`http://localhost:8080/docureader/ping`                           | GET | Custom Response Headers|
-|`http://localhost:8080/docureader/upload`                           | POST | Upload PDF|
+|`http://localhost:8080/docureader/uploadFile`                           | POST | Upload PDF|

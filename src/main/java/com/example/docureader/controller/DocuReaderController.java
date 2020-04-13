@@ -1,6 +1,7 @@
 package com.example.docureader.controller;
 
 
+import com.example.docureader.model.I9.I9Form;
 import com.example.docureader.util.XfaUtil;
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfReader;
@@ -30,18 +31,18 @@ public class DocuReaderController {
     }
 
     @PostMapping("/uploadFile")
-    public String uploadFile(@RequestParam("file") MultipartFile file) {
+    public I9Form uploadFile(@RequestParam("file") MultipartFile file) {
 
         try {
             PdfDocument pdfDoc = new PdfDocument(new PdfReader(convertToFile(file)));
-            xfaUtil.convertToI9Form(pdfDoc);
-            return SUCCESS;
+            I9Form form1 = xfaUtil.convertToI9Form(pdfDoc);
+            return form1;
         } catch (Exception exception) {
 
         }
 
 
-        return FAILURE;
+        return null;
     }
 
     private File convertToFile(MultipartFile file) throws Exception {

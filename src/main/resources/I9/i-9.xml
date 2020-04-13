@@ -8,8 +8,8 @@
                         <subSection1Row1>
                             <textFieldLastNameGlobal>wayne</textFieldLastNameGlobal>
                             <textFieldFirstNameGlobal>bruce</textFieldFirstNameGlobal>
-                            <textFieldMiddleInitialGlobal/>
-                            <textFieldOtherNames/>
+                            <textFieldMiddleInitialGlobal>N/A</textFieldMiddleInitialGlobal>
+                            <textFieldOtherNames>NA</textFieldOtherNames>
                         </subSection1Row1>
                         <subSection1Row1HelpLastName xfa:dataNode="dataGroup"/>
                         <subSection1Row1HelpFirstName xfa:dataNode="dataGroup"/>
@@ -41,9 +41,9 @@
                 </subSection1Top>
                 <subSection1Bottom>
                     <subCitizenshipStatus>
-                        <radioButtonListCitizenship>1</radioButtonListCitizenship>
+                        <radioButtonListCitizenship>4</radioButtonListCitizenship>
                         <textFieldResidentType>N/A</textFieldResidentType>
-                        <dateAlienAuthDate>N/A</dateAlienAuthDate>
+                        <dateAlienAuthDate>04/13/2020</dateAlienAuthDate>
                         <numAlienOrUSCIS>N/A</numAlienOrUSCIS>
                     </subCitizenshipStatus>
                     <subSection1CitizenshipHelpCitizen xfa:dataNode="dataGroup"/>
@@ -54,8 +54,8 @@
                     <subSection1CitizenshipHelpAlienExpDate xfa:dataNode="dataGroup"/>
                     <subAuthorizedAlien>
                         <numFormI94Admission>N/A</numFormI94Admission>
-                        <numForeignPassport>N/A</numForeignPassport>
-                        <CountryofIssuance>N/A</CountryofIssuance>
+                        <numForeignPassport>F123456</numForeignPassport>
+                        <CountryofIssuance>India</CountryofIssuance>
                         <textFieldResidentType/>
                     </subAuthorizedAlien>
                     <subSection1AliensAuthorizedToWorkHelpAlienRegNum xfa:dataNode="dataGroup"/>
@@ -67,7 +67,7 @@
                     <subEmployeeSignatureDateHelp xfa:dataNode="dataGroup"/>
                     <subPreparerTranslator>
                         <subPreparerTranslatorSelection>
-                            <rbListPerparerOrTranslator/>
+                            <rbListPerparerOrTranslator>2</rbListPerparerOrTranslator>
                             <dropdownMultiPreparerOrTranslator/>
                         </subPreparerTranslatorSelection>
                         <subPrepTransMultiSelectHelp xfa:dataNode="dataGroup"/>
@@ -98,7 +98,7 @@
                     <appendixScreen>
                         <subEmployeeName>
                             <textFieldLastNameGlobal>wayne</textFieldLastNameGlobal>
-                            <textFieldMiddleInitialGlobal/>
+                            <textFieldMiddleInitialGlobal>N/A</textFieldMiddleInitialGlobal>
                             <textFieldFirstNameGlobal>bruce</textFieldFirstNameGlobal>
                         </subEmployeeName>
                         <subSection2EmployeeNameHelpMultiPrep xfa:dataNode="dataGroup"/>
@@ -165,9 +165,9 @@
             <subSection2>
                 <subEmployeeName>
                     <textFieldLastNameGlobal>wayne</textFieldLastNameGlobal>
-                    <textFieldMiddleInitialGlobal/>
+                    <textFieldMiddleInitialGlobal>N/A</textFieldMiddleInitialGlobal>
                     <textFieldFirstNameGlobal>bruce</textFieldFirstNameGlobal>
-                    <selectListCitizenshipPage2>1</selectListCitizenshipPage2>
+                    <selectListCitizenshipPage2>4</selectListCitizenshipPage2>
                 </subEmployeeName>
                 <subSection2EmployeeNameHelp xfa:dataNode="dataGroup"/>
                 <subSection2LastNameHelp xfa:dataNode="dataGroup"/>
@@ -217,32 +217,33 @@
                     </subDocListA3>
                     <subListBandCBorder>
                         <subDocListB>
-                            <selectListBDocumentTitle/>
-                            <textFieldIssuingAuthority/>
-                            <textFieldDocumentNumber/>
+                            <selectListBDocumentTitle>Driver's license issued by state/territory
+                            </selectListBDocumentTitle>
+                            <textFieldIssuingAuthority>Texas</textFieldIssuingAuthority>
+                            <textFieldDocumentNumber>DL123456</textFieldDocumentNumber>
                             <ReceiptB/>
-                            <dateExpiration/>
+                            <dateExpiration>12/01/2020</dateExpiration>
                         </subDocListB>
                         <subDocListC>
-                            <selectListCDocumentTitle/>
-                            <textFieldIssuingAuthority/>
-                            <textFieldDocumentNumber/>
+                            <selectListCDocumentTitle>Social Security card (unrestricted)</selectListCDocumentTitle>
+                            <textFieldIssuingAuthority>Social Security Administration</textFieldIssuingAuthority>
+                            <textFieldDocumentNumber>123456789</textFieldDocumentNumber>
                             <selectListCountry/>
-                            <dateExpiration/>
+                            <dateExpiration>N/A</dateExpiration>
                             <ReceiptC/>
                         </subDocListC>
                     </subListBandCBorder>
                     <subDocListA1>
-                        <selectListA1DocumentTitle/>
-                        <textFieldIssuingAuthority/>
-                        <textFieldDocumentNumber/>
+                        <selectListA1DocumentTitle>N/A</selectListA1DocumentTitle>
+                        <textFieldIssuingAuthority>N/A</textFieldIssuingAuthority>
+                        <textFieldDocumentNumber>N/A</textFieldDocumentNumber>
                         <ReceiptA1/>
-                        <dateExpiration/>
+                        <dateExpiration>N/A</dateExpiration>
                     </subDocListA1>
                 </subVerificationListsBorder>
                 <subCertification>
                     <subAttest>
-                        <dateEmployeesFirstDay/>
+                        <dateEmployeesFirstDay>12/31/2019</dateEmployeesFirstDay>
                     </subAttest>
                     <subSec2AttestHelpEmpSigDate xfa:dataNode="dataGroup"/>
                     <subEmployerInformation>
@@ -251,17 +252,17 @@
                         <subSec2AttestHelpEmpDate xfa:dataNode="dataGroup"/>
                         <subSec2AttestHelpEmpTitle xfa:dataNode="dataGroup"/>
                         <subEmployerInfoRow2>
-                            <textFieldLastName/>
-                            <textFieldFirstName/>
+                            <textFieldLastName>Jordan</textFieldLastName>
+                            <textFieldFirstName>Michael</textFieldFirstName>
                         </subEmployerInfoRow2>
                         <subSec2AttestHelpLname xfa:dataNode="dataGroup"/>
                         <subSec2AttestHelpFname xfa:dataNode="dataGroup"/>
                         <subSec2AttestHelpOrgName xfa:dataNode="dataGroup"/>
                         <subEmployerInfoRow3>
-                            <textFieldAddress/>
-                            <textFieldCityOrTown/>
-                            <State/>
-                            <textFieldZipCode/>
+                            <textFieldAddress>1111 Downing Street</textFieldAddress>
+                            <textFieldCityOrTown>Dallas</textFieldCityOrTown>
+                            <State>TX</State>
+                            <textFieldZipCode>75001</textFieldZipCode>
                         </subEmployerInfoRow3>
                         <subSec2AttestHelpEmployerAddress xfa:dataNode="dataGroup"/>
                         <subSec2AttestHelpCityTown xfa:dataNode="dataGroup"/>
@@ -275,7 +276,7 @@
             <subSection3>
                 <subEmployeeName>
                     <textFieldLastNameGlobal>wayne</textFieldLastNameGlobal>
-                    <textFieldMiddleInitialGlobal/>
+                    <textFieldMiddleInitialGlobal>N/A</textFieldMiddleInitialGlobal>
                     <textFieldFirstNameGlobal>bruce</textFieldFirstNameGlobal>
                 </subEmployeeName>
                 <subSection3LastNameHelp xfa:dataNode="dataGroup"/>
@@ -312,7 +313,7 @@
         <appendixPrint>
             <subEmployeeName>
                 <textFieldLastNameGlobal>wayne</textFieldLastNameGlobal>
-                <textFieldMiddleInitialGlobal/>
+                <textFieldMiddleInitialGlobal>N/A</textFieldMiddleInitialGlobal>
                 <textFieldFirstNameGlobal>bruce</textFieldFirstNameGlobal>
             </subEmployeeName>
             <subSection2EmployeeNameHelpMultiPrep xfa:dataNode="dataGroup"/>
@@ -396,8 +397,8 @@
         <textFieldCityOrTownMultiPrep4/>
         <StateMultiPrep4/>
         <textFieldZipCodeMultiPrep4/>
-        <textFieldEmployerTitle/>
-        <textBusinessOrgName/>
+        <textFieldEmployerTitle>Manager</textFieldEmployerTitle>
+        <textBusinessOrgName>NBA Corp</textBusinessOrgName>
         <textFieldDocumentTitle/>
         <textFieldDocumentNum/>
         <textFieldEmployerName/>
